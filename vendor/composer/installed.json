@@ -1,0 +1,40 @@
+[
+    {
+        "name": "level-level/clarkson-hooks",
+        "version": "0.1.0",
+        "version_normalized": "0.1.0.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/level-level/clarkson-hooks.git",
+            "reference": "052f64c30379c80676ace04e39b58f321a5319b3"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/level-level/clarkson-hooks/zipball/052f64c30379c80676ace04e39b58f321a5319b3",
+            "reference": "052f64c30379c80676ace04e39b58f321a5319b3",
+            "shasum": ""
+        },
+        "time": "2017-09-25T10:40:12+00:00",
+        "type": "library",
+        "installation-source": "dist",
+        "autoload": {
+            "psr-4": {
+                "Clarkson\\Hooks\\": "src"
+            },
+            "files": [
+                "clarkson-hooks.php"
+            ]
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "authors": [
+            {
+                "name": "Level Level",
+                "email": "info@level-level.com"
+            }
+        ],
+        "description": "Solution for 'Just in time' WordPress Hooks."
+    }
+]

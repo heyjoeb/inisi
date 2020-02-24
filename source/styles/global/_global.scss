@@ -1,0 +1,131 @@
+
+@font-face {
+  font-family: 'apercubold';
+  src: url('../../source/fonts/apercu_bold-webfont.woff2') format('woff2'),
+       url('../../source/fonts/apercu_bold-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+
+}
+@font-face {
+  font-family: 'apercuitalic';
+  src: url('../../source/fonts/apercu_italic-webfont.woff2') format('woff2'),
+       url('../../source/fonts/apercu_italic-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+
+}
+@font-face {
+  font-family: 'apercuregular';
+  src: url('../../source/fonts/apercu_regular-webfont.woff2') format('woff2'),
+       url('../../source/fonts/apercu_regular-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+
+}
+
+@font-face {
+  font-family: 'aperculight';
+  src: url('../../source/fonts/apercu_light-webfont.woff2') format('woff2'),
+       url('../../source/fonts/apercu_light-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+
+}
+
+@font-face {
+  font-family: 'apercumedium_italic';
+  src: url('../../source/fonts/apercu_medium_italic-webfont.woff2') format('woff2'),
+       url('../../source/fonts/apercu_medium_italic-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+
+}
+
+
+// COLORS
+$gray: #444444;
+$blue: #0074C8;
+
+// FONT SIZES & WEIGHTS
+.txt-xl {
+  font-size: 3.250rem;
+}
+.txt-lg {
+  font-size: 2.6rem;
+}
+.txt-md {
+  font-size: 1.125rem;
+}
+.txt--deco {
+  background-image: url('../images/icon-green-leaf.svg');
+  padding-left: 40px;
+  background-repeat: no-repeat;
+  background-position: 0 center;
+}
+html {
+  font-size: 16px;
+}
+body {
+  font-family: 'apercuregular', sans-serif;
+}
+h1, h2, h3, h4, h5 {
+  font-family: 'apercubold', sans-serif;
+}
+a {
+  display: inline-block;
+}
+.default-container {
+  max-width: 1300px;
+  margin-right: auto;
+  margin-left: auto;
+}
+.inisi {
+  color: $gray;
+}
+.btn {
+  font-family: 'apercubold', sans-serif;
+  &-content {
+    display: flex;
+    vertical-align: middle;
+    color: $blue;
+    min-width: 237px;
+    height: 47px;
+    justify-content: space-around;
+    padding: 5px 30px;
+    &--blue {
+      background-image: url('../images/btn-blue.svg');
+      color: #fff;
+    }
+    &--no-padding {
+      padding-left: 0;
+      padding-right: 0;
+      min-width: 0;
+      .arrow {
+        padding-left: 30px;
+      }
+    }
+    span {
+      display: inline-block;
+    }
+  }
+}
+.btn-container {
+  margin-top: 30px;
+}
+.default-list {
+  list-style-type: none;
+  margin-left: 0;
+  .default-list__item--bullet {
+    background-image: url('../images/green-bullet.svg');
+    padding-left: 15px;
+    background-repeat: no-repeat;
+    background-position: 0 center;
+  }
+}
+.color-background {
+  background-color: #F4F7FB;
+}
+.a-section {
+  padding: 50px 0;
+}

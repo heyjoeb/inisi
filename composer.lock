@@ -1,0 +1,55 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
+        "This file is @generated automatically"
+    ],
+    "hash": "dc77772f44adcfd5a3875f833b296234",
+    "content-hash": "8c497f2be2347c8ef639fc8fa78ff1bc",
+    "packages": [
+        {
+            "name": "level-level/clarkson-hooks",
+            "version": "0.1.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/level-level/clarkson-hooks.git",
+                "reference": "052f64c30379c80676ace04e39b58f321a5319b3"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/level-level/clarkson-hooks/zipball/052f64c30379c80676ace04e39b58f321a5319b3",
+                "reference": "052f64c30379c80676ace04e39b58f321a5319b3",
+                "shasum": ""
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Clarkson\\Hooks\\": "src"
+                },
+                "files": [
+                    "clarkson-hooks.php"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Level Level",
+                    "email": "info@level-level.com"
+                }
+            ],
+            "description": "Solution for 'Just in time' WordPress Hooks.",
+            "time": "2017-09-25 10:40:12"
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "stable",
+    "stability-flags": [],
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": [],
+    "platform-dev": []
+}

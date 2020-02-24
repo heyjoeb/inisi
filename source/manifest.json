@@ -1,0 +1,33 @@
+{
+    "version": "0.1.0",
+    "paths": {
+        "source": "../source/",
+        "dist": "../dist/"
+
+    },
+    "dependencies": {
+        "main.js": {
+            "bower": [
+                "slick-carousel",
+                "velocity",
+                "imgLiquid",
+                "matchHeight",
+                "foundation-sites"
+            ],
+            "files": [
+                "scripts/main.js",
+                "scripts/pushy.js"
+            ],
+            "main": true
+        },
+        "main.css": {
+            "files": [
+                "styles/main.scss"
+            ],
+            "main": true
+        }
+    },
+    "config": {
+        "browsersyncUrl": "goosevpn.local"
+    }
+}

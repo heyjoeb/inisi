@@ -1,0 +1,21 @@
+{
+    "name": "level-level/clarkson-theme",
+    "type": "project",
+    "license": "private",
+
+    "repositories": [
+        {
+            "type": "composer",
+            "url": "https://wpackagist.org"
+        }
+    ],
+    "autoload": {
+        "psr-4":{
+            "Hooks\\": "app/Hooks",
+            "Clarkson\\": "app/Clarkson"
+        }
+    },
+    "require": {
+        "level-level/clarkson-hooks": "^0.1.0"
+    }
+}
