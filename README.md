@@ -1,4 +1,4 @@
-# gooseVPN
+# INISI
 
 ## Steps to setup the compilers:
 - Open terminal
